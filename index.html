@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自己紹介サイト</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">ホーム</a></li>
+                <li><a href="skills.html">スキル</a></li>
+                <li><a href="goals.html">目標</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2 class="fade-in">はじめまして、西端康介です！</h2>
+        </p>
+        <div class="profile-container">
+            <img src="profile.jpg" alt="プロフィール画像" class="profile-img", class="fade-in">
+            <div class="profile-text">
+                <h2>基本情報と経歴</h2>
+                <p class="spaced-text">
+
+                    生年月日:2004年10月6日<br>
+                    出身:埼玉県三芳町<br>
+                    趣味:サウナ<br>
+                    学歴:<br>
+                    2020年4月　さいたま市立浦和高等学校入学<br>
+                    2023年3月　卒業<br>
+                    2023年4月　慶應義塾大学入学<br>
+                    2025年4月から大学3年生<br>
+                </p>
+            </div>
+        </div>
+        
+        <style>
+            .profile-container {
+                display: flex;
+                text-align: left;
+                max-width: 800px;
+                margin: 0 auto;
+            }
+        
+            .profile-img {
+                width: 30%;
+                height: auto;
+                object-fit: cover;
+                margin-right: 20%;
+            }
+        
+            .profile-text {
+                flex: 1;
+                font-size: 20px;
+            }
+
+            .spaced-text{
+                line-height: 2;
+                font-size: 18px;
+            }
+
+                
+        </style>
+        
+    </section>
+
+    <footer>
+        <p>© 2025 My Portfolio</p>
+    </footer>
+
+</body>
+</html>
